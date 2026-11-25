@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="galon-app-basic">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/galon-app-basic.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
