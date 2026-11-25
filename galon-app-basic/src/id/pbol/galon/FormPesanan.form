@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="id.pbol.galon.FormPesanan">
+  <grid id="b1000" binding="panelUtama" layout-manager="GridBagLayout">
+  <constraints>
+    <xy x="20" y="20" width="510" height="430"/>
+  </constraints>
+  <properties>
+    <background color="16251388"/>
+  </properties>
+  <border type="empty">
+    <size top="24" left="24" bottom="24" right="24"/>
+  </border>
+  <children>
+    <component id="b1001" class="javax.swing.JLabel">
+    <constraints>
+      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+      <gridbag top="0" left="0" bottom="4" right="0" weightx="0" weighty="0"/>
+    </constraints>
+    <properties>
+      <text value="Buat pesanan"/>
+      <font size="25" style="1"/>
+      <foreground color="1582650"/>
+    </properties>
+    </component>
+    <component id="b1002" class="javax.swing.JLabel" binding="lblHargaSatuan">
+    <constraints>
+      <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+      <gridbag top="0" left="0" bottom="20" right="0" weightx="0" weighty="0"/>
+    </constraints>
+    <properties>
+      <text value="Rp7.000 per galon"/>
+      <foreground color="4347253"/>
+    </properties>
+    </component>
+    <component id="b1005" class="javax.swing.JLabel">
+    <constraints>
+      <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+      <gridbag top="0" left="0" bottom="4" right="0" weightx="0" weighty="0"/>
+    </constraints>
+    <properties>
+      <text value="Nomor HP"/>
+      <labelFor value="b1006"/>
+    </properties>
+    </component>
+    <component id="b1006" class="id.pbol.galon.KolomContoh" binding="txtNomorHp">
+    <constraints>
+      <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+      <gridbag top="0" left="0" bottom="14" right="0" weightx="1" weighty="0"/>
+    </constraints>
+    <properties/>
+    </component>
+    <component id="b1007" class="javax.swing.JLabel">
+    <constraints>
+      <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+      <gridbag top="0" left="0" bottom="4" right="0" weightx="0" weighty="0"/>
+    </constraints>
+    <properties>
+      <text value="Alamat pengantaran"/>
+      <labelFor value="b1009"/>
+    </properties>
+    </component>
+    <scrollpane id="b1008">
+    <constraints>
+      <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="8" fill="3" indent="0" use-parent-layout="false"/>
+      <gridbag top="0" left="0" bottom="16" right="0" weightx="1" weighty="1"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="b1009" class="javax.swing.JTextArea" binding="txtAlamat">
+      <constraints/>
+      <properties>
+        <rows value="5"/>
+        <lineWrap value="true"/>
+        <wrapStyleWord value="true"/>
+      </properties>
+      </component>
+    </children>
+    </scrollpane>
+    <component id="b1010" class="javax.swing.JLabel">
+    <constraints>
+      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+      <gridbag top="0" left="0" bottom="4" right="0" weightx="0" weighty="0"/>
+    </constraints>
+    <properties>
+      <text value="Jumlah galon"/>
+      <labelFor value="b1011"/>
+    </properties>
+    </component>
+    <component id="b1011" class="id.pbol.galon.KolomContoh" binding="txtJumlah">
+    <constraints>
+      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+      <gridbag top="0" left="0" bottom="18" right="20" weightx="1" weighty="0"/>
+    </constraints>
+    <properties/>
+    </component>
+    <component id="b1012" class="javax.swing.JLabel">
+    <constraints>
+      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+      <gridbag top="0" left="0" bottom="4" right="0" weightx="0" weighty="0"/>
+    </constraints>
+    <properties>
+      <text value="Total harga"/>
+      <font size="15" style="1"/>
+      <foreground color="1582650"/>
+    </properties>
+    </component>
+    <component id="b1013" class="javax.swing.JLabel" binding="lblTotal">
+    <constraints>
+      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+      <gridbag top="0" left="0" bottom="18" right="0" weightx="0" weighty="0"/>
+    </constraints>
+    <properties>
+      <text value="—"/>
+      <font size="22" style="1"/>
+      <foreground color="1987239"/>
+    </properties>
+    </component>
+    <grid id="b1014" layout-manager="FlowLayout" flow-align="2" hgap="8" vgap="0">
+    <constraints>
+      <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+      <gridbag top="0" left="0" bottom="0" right="0" weightx="0" weighty="0"/>
+    </constraints>
+    <properties>
+      <opaque value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="b1015" class="javax.swing.JButton" binding="btnBatal">
+      <constraints/>
+      <properties>
+        <text value="Kembali"/>
+      </properties>
+      </component>
+      <component id="b1016" class="javax.swing.JButton" binding="btnSimpan">
+      <constraints/>
+      <properties>
+        <text value="Simpan pesanan"/>
+      </properties>
+      </component>
+    </children>
+    </grid>
+  </children>
+  </grid>
+</form>
