@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="id.pbol.galon.DaftarAkunForm">
+  <grid id="d1000" binding="panelUtama" layout-manager="GridBagLayout">
+    <constraints><xy x="20" y="20" width="390" height="450"/></constraints>
+    <properties><background color="16251388"/></properties>
+    <border type="empty"><size top="24" left="24" bottom="24" right="24"/></border>
+    <children>
+    <component id="d1001" class="javax.swing.JLabel" binding="lblJudul">
+      <constraints>
+        <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        <gridbag top="0" left="0" bottom="18" right="0" weightx="1" weighty="0"/>
+      </constraints>
+      <properties>
+        <text value="Daftar akun konsumen"/>
+        <font size="24" style="1"/>
+        <foreground color="1582650"/>
+      </properties>
+    </component>
+    <component id="d100a" class="javax.swing.JLabel">
+      <constraints>
+        <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        <gridbag top="0" left="0" bottom="4" right="0" weightx="1" weighty="0"/>
+      </constraints>
+      <properties>
+        <text value="Nama"/>
+        <labelFor value="d100b"/>
+      </properties>
+    </component>
+    <component id="d100b" class="javax.swing.JTextField" binding="txtNama">
+      <constraints>
+        <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        <gridbag top="0" left="0" bottom="8" right="0" weightx="1" weighty="0"/>
+      </constraints>
+      <properties>
+        <columns value="26"/>
+      </properties>
+    </component>
+    <component id="d101a" class="javax.swing.JLabel">
+      <constraints>
+        <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        <gridbag top="0" left="0" bottom="4" right="0" weightx="1" weighty="0"/>
+      </constraints>
+      <properties>
+        <text value="Email"/>
+        <labelFor value="d101b"/>
+      </properties>
+    </component>
+    <component id="d101b" class="id.pbol.galon.KolomContoh" binding="txtEmail">
+      <constraints>
+        <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        <gridbag top="0" left="0" bottom="8" right="0" weightx="1" weighty="0"/>
+      </constraints>
+      <properties>
+        <columns value="26"/>
+      </properties>
+    </component>
+    <component id="d102a" class="javax.swing.JLabel">
+      <constraints>
+        <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        <gridbag top="0" left="0" bottom="4" right="0" weightx="1" weighty="0"/>
+      </constraints>
+      <properties>
+        <text value="Kata sandi"/>
+        <labelFor value="d102b"/>
+      </properties>
+    </component>
+    <component id="d102b" class="javax.swing.JPasswordField" binding="txtPassword">
+      <constraints>
+        <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        <gridbag top="0" left="0" bottom="8" right="0" weightx="1" weighty="0"/>
+      </constraints>
+      <properties>
+        <columns value="26"/>
+      </properties>
+    </component>
+    <component id="d103a" class="javax.swing.JLabel">
+      <constraints>
+        <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        <gridbag top="0" left="0" bottom="4" right="0" weightx="1" weighty="0"/>
+      </constraints>
+      <properties>
+        <text value="Konfirmasi kata sandi"/>
+        <labelFor value="d103b"/>
+      </properties>
+    </component>
+    <component id="d103b" class="javax.swing.JPasswordField" binding="txtKonfirmasi">
+      <constraints>
+        <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        <gridbag top="0" left="0" bottom="8" right="0" weightx="1" weighty="0"/>
+      </constraints>
+      <properties>
+        <columns value="26"/>
+      </properties>
+    </component>
+    <component id="d108" class="javax.swing.JCheckBox" binding="chkTampilkan">
+      <constraints>
+        <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        <gridbag top="0" left="0" bottom="8" right="0" weightx="1" weighty="0"/>
+      </constraints>
+      <properties>
+        <text value="Tampilkan kata sandi"/>
+      </properties>
+    </component>
+    <component id="d109" class="javax.swing.JButton" binding="btnDaftar">
+      <constraints>
+        <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        <gridbag top="0" left="0" bottom="8" right="0" weightx="1" weighty="0"/>
+      </constraints>
+      <properties>
+        <text value="Daftar akun"/>
+      </properties>
+    </component>
+    <component id="d110" class="javax.swing.JButton" binding="btnKembali">
+      <constraints>
+        <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        <gridbag top="0" left="0" bottom="0" right="0" weightx="1" weighty="0"/>
+      </constraints>
+      <properties>
+        <text value="Kembali"/>
+      </properties>
+    </component>
+    </children>
+  </grid>
+</form>
